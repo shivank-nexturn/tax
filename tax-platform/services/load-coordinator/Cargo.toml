@@ -1,0 +1,30 @@
+[package]
+name = "load-coordinator"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "load-coordinator"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+axum = { workspace = true }
+tower = { workspace = true }
+tower-http = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+aws-sdk-s3 = { workspace = true }
+aws-sdk-sqs = { workspace = true }
+sqlx = { workspace = true }
+
+# Internal dependencies
+tfolder = { path = "../../libs/tfolder" }
+tax = { path = "../../libs/tax" }
+utils = { path = "../../libs/utils" }

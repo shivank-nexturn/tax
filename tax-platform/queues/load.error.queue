@@ -1,0 +1,3 @@
+# Load Error Queue
+# This queue handles error notifications during loading
+# Format: JSON messages with error details

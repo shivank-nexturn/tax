@@ -1,0 +1,3 @@
+# Geography Loading Queue
+# This queue handles geography data loading events
+# Format: JSON messages with geography data

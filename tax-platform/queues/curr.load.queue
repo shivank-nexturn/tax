@@ -1,0 +1,3 @@
+# Currency Loading Queue
+# This queue handles currency data loading events
+# Format: JSON messages with currency data

@@ -1,0 +1,34 @@
+[package]
+name = "file-validator"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "file-validator"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+uuid = { workspace = true }
+chrono = { workspace = true }
+axum = { workspace = true }
+tower = { workspace = true }
+tower-http = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+kafka = { workspace = true }
+aws-sdk-s3 = { workspace = true }
+sqlx = { workspace = true }
+zip = { workspace = true }
+regex = { workspace = true }
+sha2 = { workspace = true }
+hex = { workspace = true }
+
+# Internal dependencies
+taxonomy = { path = "../../libs/taxonomy" }
+orchestrator-models = { path = "../../libs/orchestrator-models" }
+utils = { path = "../../libs/utils" }

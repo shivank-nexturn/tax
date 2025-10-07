@@ -1,0 +1,3 @@
+# Load Completion Queue
+# This queue handles load completion notifications
+# Format: JSON messages with completion status

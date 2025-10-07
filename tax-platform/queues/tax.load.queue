@@ -1,0 +1,3 @@
+# Tax Loading Queue
+# This queue handles tax data loading events
+# Format: JSON messages with tax data

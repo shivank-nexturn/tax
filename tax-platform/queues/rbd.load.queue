@@ -1,0 +1,3 @@
+# RBD Loading Queue
+# This queue handles RBD data loading events
+# Format: JSON messages with RBD data
